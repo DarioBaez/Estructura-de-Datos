@@ -1,0 +1,21 @@
+digraph Grafo {
+    A [label="45"]
+    B [label = "23"]
+    C [label = "65"]
+    D [label = "2"]
+    E [label = "38"]
+    F [label = "52"]
+    G [label = "96"]
+    H [label = "7"]
+    I [label = "48"]
+
+    A -> B
+    A -> C
+    B -> D
+    B -> E
+    C -> F
+    C -> G
+    D -> H
+    F -> I
+
+}

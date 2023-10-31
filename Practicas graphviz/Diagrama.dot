@@ -1,0 +1,15 @@
+digraph DiagramaFlujo {
+    inicio [shape = ellipse, label = "Inicio"]
+    ingresar_numero [shape = box, label = "Ingresar numero"]
+    i [shape = diamond, label = "(num%2) == 0"]
+    no_es_par [shape = box, label = "No es par"]
+    es_par [shape = box, label= "Es par"]
+    fin [shape = ellipse, label= "Fin del programa"]
+
+    inicio -> ingresar_numero
+    ingresar_numero -> i
+    i -> es_par [label = "si"]
+    i -> no_es_par [label = "no"]
+    no_es_par -> fin
+    es_par -> fin
+}
