@@ -56,7 +56,10 @@ class aBinarios:
     def getRaiz(self):
         return self.raiz
     
-#creamos un menu
 
 #llamamos el objeto de arbol binario
-ab = aBinarios()
+nodos = Nodo(value=10, izq="nodeizq", der="nodeder")
+ab = aBinarios(nodos)
+
+
+
